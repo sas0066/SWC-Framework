@@ -1,0 +1,34 @@
+//Mission presentation
+onLoadMission = "SWC Template"; //Krátký popis mise
+OnLoadName = "SWC Template";	// Jméno mise
+author = "SWC Dev. Team"; // Jméno autora mise
+loadScreen = "PLACEHOLDER"; // Obrázek při načítání mise
+
+//Mission selection
+briefingName = "SWC Template" // Jméno mise ve výběru misí
+overviewPicture = "PLACEHOLDER";	//Obrázek mise ve výběru misí
+overviewText = "Saint Wenceslas Company"; //Popis mise ve výběru misí v případě že je mise dostupná
+
+//Intro -> Pokud nepoužíváš intro tak můžeš smazat
+OnLoadIntro = "Saint Wenceslas Company"; //Custom zpráva během načítání intra
+OnloadIntroTime = 1;
+
+//Respawn
+respawn = 3; //Respawn na základně (Základna je definována markery respawn_west, respawn_east, respawn_guerrila, respawn_civilian)
+respawnDelay = 999999; //Respawn delay v sekundách
+respawnButton = 0; //Odstranění respawn tlačítka
+respawnDialog = 0; // Zobrazit scorboard a respawn timer po smrti
+respawnOnStart = 0; //Neupravovat - Respawnuj hráče když se připojí do hry
+
+//Dont touch this
+scriptedPlayer = 1; //Neupravovat - odstraňuje error zprávu
+joinUnassigned = 1; //Neupravovat - 1 Hráčův slot není automaticky určen. 0 Hráč obdrží slot automaticky
+disabledAI = 1; //Neupravovat - Zablokuje doplňování slotů o AI
+enableDebugConsole = 1; //Neupravovat - Zablokuje conzoli.
+allowFunctionsLog = 1;
+class Header {
+	gameType = Sandbox;
+	minPlayers = 1;
+	maxPlayers = 128; 
+	playerCountMultipleOf = 1;
+};
